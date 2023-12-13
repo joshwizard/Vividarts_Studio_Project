@@ -16,45 +16,56 @@ This is a hands-on cloud engineering project delivered by the azubi africa cloud
 I was able to work with:
  1. Kwadwo Fosu Appiah
  2. Jean-Pierre Gbedjissi
+ 3. Augustine Gideon
+ 4. Gladys Aba Kwofie
+ 5. Madalisto Gongoni
+ 6. Prince Kafui Ocloo
 
 ##
 ### Project Overview
 ```sh
 Technologies
-1. Python Programming Language
-2. Tkinter (User Graphic Interface)
-3. Boto3 Library
-4. AWS DynamoDB
+1. Python for Image Processing & Flask/Django for the back end.
+2. HTML, CSS and JavaScript for the Frontend.
+3. Docker for containerization
+4. AWS S3 for image storage
 5. Terraform
+6. Jenkins for CI/CD pipelines
 
 ```
 
 ##
 ```sh
-   1. Creating an s3 bucket through the AWS console
+   1. Create photo editing tools
 ```
-You need to have a an AWS account, you can get a freetire account which basically means you get a free 1 year to use some AWS resources. In our case, we have that setup and we will be using the s3 service.
-* Go to the s3 service
-* click on "create bucket" :  a bucket is where we will put our files.
-* click on "objects" : obejects are files that can go into the bucket.
+Choose a Python library (OpenCV) for image processing and define specific editing features.
+* Write a Python program for photo editing with the selected library.
+  
 ##
 ```sh
-   2. Setup Website hosting for S3
+   2. Creaye a User Friendly Interface
 ```
-Webhosting is what allows o a webfile to be served to the internet. AWS offers a free option to host a static website (static is something that doesnt use data from a database).
-* Go to your s3 bucket
-* Go to the properties tab
-* Scroll down to Static Web Hosting and enable this.
+For users to interact with this web app, appealing GUI interface cannot be ignored.
+* Decide on a GUI framework for Python (Flask/Django).
+* Design the interface with the necessary photo editing features.
+* Intergrate the program with the choosen GUI framework.
 ##
 ```sh
-   3. Launch your website on s3
+   3. Containerize your python application
 ```
-We have a bucket and its now hosting ready, all we need to do is add our files and we can access the site.
-* Go to your s3 bucket and upload "objects". these are your webfiles from your computer
-* Go to the s3 bucket properties tab
-* Scroll down to Static Web Hosting and you should now see a url.
-*click on the url and access your site.
+For a reliable application and in need of lightweight technology, Docker comes in without question.
+* Set up Docker for containerization.
+* Create a Dockerfile for your Python app.
+* Build and test the Docker Image locally.
 
+##
+```sh
+   4. Create cloud storage for your photos using AWS S3
+```
+For security purposes and and 
+* Set up Docker for containerization.
+* Create a Dockerfile for your Python app.
+* Build and test the Docker Image locally.
 
 
 ## Showcase a simple Architecture diagram
