@@ -87,17 +87,7 @@ Suitable pipeline that triggers code changes.
   
 ## Showcase a simple Architecture diagram
 <!-- setup a link to your images folder -->
-<a href="[https://github.com/joshwizard/Vividarts_Studio_Project/Architecture-Diagram.png]">
-    <img src="images/arch.png" alt="Logo" width="auto" height="150">
-</a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ![Architecture Diagram](https://github.com/joshwizard/Vividarts_Studio_Project/assets/31470527/11bf7b23-0d0c-435d-92ba-df4509b958a8)
-
-
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
