@@ -93,6 +93,9 @@ Suitable pipeline that triggers code changes.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+![Architecture Diagram](https://github.com/joshwizard/Vividarts_Studio_Project/assets/31470527/11bf7b23-0d0c-435d-92ba-df4509b958a8)
+
+
 
 
 
