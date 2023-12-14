@@ -25,12 +25,12 @@ I was able to work with:
 ### Project Overview
 ```sh
 Technologies
-1. Python for Image Processing & Flask/Django for the back end.
-2. HTML, CSS and JavaScript for the Frontend.
-3. Docker for containerization
-4. AWS S3 for image storage
+1. Python
+2. HTML, CSS and JavaScript
+3. Docker
+4. AWS S3
 5. Terraform
-6. Jenkins for CI/CD pipelines
+6. Jenkins
 
 ```
 
@@ -43,7 +43,7 @@ Choose a Python library (OpenCV) for image processing and define specific editin
   
 ##
 ```sh
-   2. Creaye a User Friendly Interface
+   2. Create a User Friendly Interface
 ```
 For users to interact with this web app, appealing GUI interface cannot be ignored.
 * Decide on a GUI framework for Python (Flask/Django).
@@ -62,12 +62,29 @@ For a reliable application and in need of lightweight technology, Docker comes i
 ```sh
    4. Create cloud storage for your photos using AWS S3
 ```
-For security purposes and and 
-* Set up Docker for containerization.
-* Create a Dockerfile for your Python app.
-* Build and test the Docker Image locally.
+AWS S3 is secure and offer more reliable storage.
+* Create an AWS Account
+* Set up an S3 bucket for storing edited photos.
+* Secure access to the bucket with proper permissions.
+* Use Python AWS SDK (Such as Boto3) to interact with S3.
+* Implement uploading and downloading of photos.
 
+##
+```sh
+   5. Create Infrastructure as Code (IaC)
+```
+* We chose Terraform to run scripts
+* Define infrastructure components such as S3 buckets.
+* Test the scripts to ensure they create tge desired resources.
 
+##
+```sh
+   6. Create CI/CD pipelines using Jenkins
+```
+Suitable pipeline that triggers code changes.
+* Define stages, by also building the Docker image testing anf deployment.
+
+  
 ## Showcase a simple Architecture diagram
 <!-- setup a link to your images folder -->
 <a href="[https://github.com/lawrencemuema/Cloud_project02](https://github.com/lawrencemuema/Cloud_project02/blob/main/images/fargate_arch.png)">
