@@ -88,7 +88,7 @@ Suitable pipeline that triggers code changes.
 ## Showcase a simple Architecture diagram
 <!-- setup a link to your images folder -->
 <a href="(https://github.com/joshwizard/Vividarts_Studio_Project/blob/main/MicrosoftTeams-image%20(5).png)">
-    <img src="images/fargate_arch.png" alt="Logo" width="auto" height="150">
+    <img src="images/arch.png" alt="Logo" width="auto" height="150">
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
